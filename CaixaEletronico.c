@@ -1,8 +1,3 @@
-/*
-Nome:
-    Pedro Henrique de Lima Duque RA:2022201324
-*/
-
 #include <stdio.h>
 #include <locale.h>
 
