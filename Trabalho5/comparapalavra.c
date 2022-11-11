@@ -8,6 +8,7 @@ RA:2022201324
 
 int main (void){
     char palavra1[6], palavra2[6];
+    int quant=0;
 
     printf("Digite a primeira palavra: ");
     scanf("%s", palavra1);
@@ -19,8 +20,11 @@ int main (void){
         palavra2[i]= toupper(palavra2[i]);
         if(palavra1[i] == palavra2[i]){
             printf("A letra \"%c\" é igual, no indice %d.\n", palavra1[i], i+1);
+            quant++;
         }
     }
+
+    printf("A quantidade de letras iguais é: %d.\n", quant);
 
     return 0;
 }
