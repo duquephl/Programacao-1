@@ -22,7 +22,7 @@ int main(void){
         printf("Digite uma opção: ");
         scanf("%d",&op);
         if(op==1){
-            printf("Digite a mensagem desejada: ");
+            printf("Digite a mensagem desejada:\nObs: a mensagem deve ter até 60 caracteres e não deve conter espaços.\n");
             scanf("%s", mensagem);
             tamMensagem = strlen(mensagem);
             tamChave = strlen(chave);
