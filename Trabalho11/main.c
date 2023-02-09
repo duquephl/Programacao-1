@@ -19,7 +19,6 @@ int main(void) {
   }
 
   while (fscanf(arquivo, "%d", &numero) != EOF) {
-    printf("%d, ", numero);
     quantNum++;
   }
   printf("\n");
